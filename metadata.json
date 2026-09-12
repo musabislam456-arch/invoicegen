@@ -1,0 +1,6 @@
+{
+  "name": "InvoiceGen Pro",
+  "description": "Professional invoice, quotation, and receipt generator for freelancers and small businesses with instant PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
