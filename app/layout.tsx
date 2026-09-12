@@ -45,8 +45,10 @@ export const metadata: Metadata = {
     description:
       'Create compliant invoices, estimates, and receipts with instant PDF export. Multi-currency, tax calculation, and logo upload.',
   },
+  verification: {
+    google: 'I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s',
+  },
 };
-<meta name="google-site-verification" content="I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s" />
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -66,4 +68,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
