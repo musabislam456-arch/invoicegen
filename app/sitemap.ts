@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/lib/constants';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.APP_URL || 'https://invoicegenpro.com';
+  const baseUrl = process.env.APP_URL || 'https://www.utilix.site';
 
   const staticPages: MetadataRoute.Sitemap = [
     {
