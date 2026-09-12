@@ -17,6 +17,7 @@ const serifFont = Lora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.utilix.site'),
   title: 'InvoiceGen Pro — Free Professional Invoice, Quote & Receipt Generator',
   description:
     'Create, customize, and export professional vector PDF invoices, quotations/estimates, and receipts. 100% client-side privacy, multi-currency, auto-tax, logo upload, and corporate styling.',
@@ -37,6 +38,7 @@ export const metadata: Metadata = {
       'Generate vector PDF invoices, quotes, and payment receipts in seconds. No account required, 100% private in-browser generation.',
     type: 'website',
     locale: 'en_US',
+    url: 'https://www.utilix.site',
     siteName: 'InvoiceGen Pro',
   },
   twitter: {
