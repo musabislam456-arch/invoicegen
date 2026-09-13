@@ -40,13 +40,28 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: 'https://www.utilix.site',
     siteName: 'InvoiceGen Pro',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'InvoiceGen Pro — Free Professional Invoice, Quote & Receipt Generator',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'InvoiceGen Pro — B2B Financial Document Generator',
     description:
       'Create compliant invoices, estimates, and receipts with instant PDF export. Multi-currency, tax calculation, and logo upload.',
+    images: ['/opengraph-image'],
   },
+  icons: {
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/apple-icon',
+  },
+  manifest: '/manifest.webmanifest',
   verification: {
     google: 'I_SaNu0LrbiQSkKmCb7bm8LRBISuViD4KTJh0FHRo2s',
   },
