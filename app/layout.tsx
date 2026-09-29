@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import { Plus_Jakarta_Sans, Lora } from 'next/font/google';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
@@ -79,7 +80,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
 
         {/* CHATBOT_SCRIPT_START */}
-        {/* Paste client's chatbot <script> embed code here */}
+        <Script
+          src="https://cdn.zanderio.ai/widget/loader.js"
+          data-id="wdg_Xq5mIbafgHyNEoZ8MDLIMBUx"
+          strategy="afterInteractive"
+        />
         {/* CHATBOT_SCRIPT_END */}
       </body>
     </html>
